@@ -19,5 +19,6 @@ If you are viewing this but don't have access, please [attempt to log in through
 * Continuous Integration (CI/CD) 
 
 ## External Resources
+* [U of I GitHub](https://web.uillinois.edu/github)
 * [Github](https://guides.github.com/activities/hello-world/)
 * [Markdown](https://www.markdowntutorial.com/)
