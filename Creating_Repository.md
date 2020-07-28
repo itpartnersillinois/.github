@@ -4,6 +4,10 @@ Go to the [IT Partners Githib Repository](https://github.com/itpartnersillinois)
 
 ## Create a new repository screen
 
+You will see the below screen
+
+![Creating a new repository screen](https://github.com/itpartnersillinois/tutorial/blob/master/create_repository_screen.png)
+
 Naming is tough. If you have a solution name, you'll want the repository to be the same name as the solution. The solution should also be the same name as the main project or deployed item, so you'll have a lot of things that are named the same. This is a feature, not a bug. 
 
 The description is not important, but it is nice to give a one sentance summary of the project. Most of the information in the description will be repeated in the tags and the README.md file. 
