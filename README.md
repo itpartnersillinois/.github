@@ -1,10 +1,14 @@
 # Welcome to the IT Partners Github organization. 
 
-This is a living document. See, I'm editing it. 
+This is a living document. 
 
 ## Introduction
 
 This is a tutorial on best practices inside IT Partners (what IT Partners does) and a tutorial (how to do it). 
+
+## Logging in
+
+If you are viewing this but don't have access, please [attempt to log in through single-signon](https://github.com/orgs/itpartnersillinois/sso). If you still don't have access, then we need to add you to the IT Partners organization. 
 
 ## Tutorials and Best Practices
 * [Creating a new repository](https://github.com/itpartnersillinois/tutorial/blob/master/Creating_Repository.md)
