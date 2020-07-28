@@ -11,3 +11,5 @@ The description is not important, but it is nice to give a one sentance summary 
 Under most circumstances, you'll be choosing an "Internal" repository. This will ensure that other members of the team can write to your project. Choose "Private" for test projects you don't want others to see. You should not choose "Public." 
 
 Do not initialize with a README.md or .gitignore. 
+
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md) -- [Setting permissions and tags](https://github.com/itpartnersillinois/tutorial/blob/master/Setting_Permissions_and_Tags.md)
