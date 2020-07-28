@@ -8,7 +8,7 @@ Each section is going to have best practices (what IT Partners does) and a tutor
 
 ## Tutorials and Best Practices
 * [Creating a new repository](https://github.com/itpartnersillinois/tutorial/blob/master/Creating_Repository.md)
-* Setting permissions and tags
+* [Setting permissions and topics](https://github.com/itpartnersillinois/tutorial/blob/master/Setting_Permissions_and_Topics.md)
 * Creating a README.md file 
 * Attaching GitHub to Microsoft Teams 
 * Creating and Protecting Branches 
