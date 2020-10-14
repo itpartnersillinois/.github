@@ -9,4 +9,4 @@
 7. Choose your Function App. For the Working Directory, enter your working directory of your CS Project (for example, if your CS project is in subfolder MyProject, enter $(System.DefaultWorkingDirectory)/MyProject). If your project is in your root, just enter $(System.DefaultWorkingDirectory)
 8. Save and commit. 
 
-This will place an azure-pipelines.yml file in your root directory. You can modify this as you need to to meet your needs. 
+This will place an azure-pipelines.yml file in your root directory. You can modify this as you need to to meet your needs. Make sure you migrate your master branch down to your develop branch so you pick up the .yml file. 
