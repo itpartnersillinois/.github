@@ -21,3 +21,5 @@ Branch name pattern: develop
 Your screen should look like this:
 
 ![Branch Protection Listing](https://github.com/itpartnersillinois/tutorial/blob/master/branch_protection_listing.png)
+
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)

@@ -10,3 +10,5 @@
 8. Save and commit. 
 
 This will place an azure-pipelines.yml file in your root directory. You can modify this as you need to to meet your needs. Make sure you migrate your master branch down to your develop branch so you pick up the .yml file. 
+
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)

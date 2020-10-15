@@ -22,4 +22,4 @@ Change your remote to the new Github URL
       
 Archive your old Gitlab account by going to Settings --> General --> Advanced --> Archive Project
 
-[Setting Permissions and Topics](https://github.com/itpartnersillinois/tutorial/blob/master/Setting_Permissions_and_Topics.md) -- [Attaching GitHub to Microsoft Teams](https://github.com/itpartnersillinois/tutorial/blob/master/Attaching_GitHub_to_Microsoft_Teams.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)

@@ -5,3 +5,5 @@ Gitlab projects should have a master and develop branch. Both should be protecte
 The master branch should always mirror production, and the develop branch should always mirror a shared test environment if a test environment is being used. Continuous Integration/Continuous Deployment (CI/CD) will be in place to ensure this mirroring process, and development should never be done directly on the server. Do not update code directly on the server.
 
 _Ensure that all existing functionality works before merging your branches into develop or master branches._ If you accidentally merge code into the develop branch that causes existing functionality to break, then notify other developers and the PM so the merge can be reverted or fixed. 
+
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)

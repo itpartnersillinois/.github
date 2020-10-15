@@ -16,4 +16,4 @@ Under most circumstances, you'll be choosing an "Internal" repository. This will
 
 Do not initialize with a README.md or .gitignore. 
 
-[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md) -- [Setting permissions and topics](https://github.com/itpartnersillinois/tutorial/blob/master/Setting_Permissions_and_Topics.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)

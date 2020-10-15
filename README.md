@@ -12,7 +12,8 @@ If you are viewing this but don't have access, please [attempt to log in through
 
 ## Tutorials and Best Practices
 * [Creating a New Repository](https://github.com/itpartnersillinois/tutorial/blob/master/Creating_Repository.md)
-* [Setting Permissions and Topics](https://github.com/itpartnersillinois/tutorial/blob/master/Setting_Permissions_and_Topics.md)
+* [Setting Topics](https://github.com/itpartnersillinois/tutorial/blob/master/Setting_Topics.md)
+* [Setting Permissions](https://github.com/itpartnersillinois/tutorial/blob/master/Setting_Permissions.md)
 * [Migrating from GitLab to GitHub](https://github.com/itpartnersillinois/tutorial/blob/master/Migrating_from_GitLab_to_GitHub.md)
 * [Attaching GitHub to Microsoft Teams](https://github.com/itpartnersillinois/tutorial/blob/master/Attaching_GitHub_to_Microsoft_Teams.md)
 * [Creating and Protecting Branches](https://github.com/itpartnersillinois/tutorial/blob/master/protecting_branches.md)
