@@ -41,7 +41,7 @@ Note that this is for a standard 11ty / gulp build. Replace what npm tasks you w
 
 5. Adding this to Github master branch should trigger a build. Test using the Cloudfront distribution domain name. 
 6. Let Technology Services know that you are ready to edit the IPAM record. They will send you a CNAME record name and a value.
-7. Add this to IPAM. Remember to not include the full domain. 
+7. Add the CNAME to IPAM. Remember to not include the full domain. Also, add the CNAME of your main site (example.illinois.edu) to the IPAM record, pointing to the Cloudfront distribution domain name.
 8. Let Technology Services know that this is done. They will validate the Cloudfront record and add the SSL.
 
 ## Note on "index.html"
