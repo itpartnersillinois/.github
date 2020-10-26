@@ -35,10 +35,10 @@
              aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
              aws-region: us-east-2
          - name: Deploy static site to S3 bucket
-           run: aws s3 sync ./_site/ s3://xxxxxxxxxxxxxxxxxxxxx/content --delete --acl bucket-owner-full-control
+           run: aws s3 sync ./_site/ s3://{xxxxxxxxxxxxxxxxxxxxx}/content --delete --acl bucket-owner-full-control
 ```
-     Note that this is for a standard 11ty / gulp build. Replace what npm tasks you want with your particular process.
-     In the section under "Deploy static site to S3 bucket", you will need to replace the "xxxxxxxxxxxxxxxxxxxxx" with the s3 bucket name that Tech Services gives you. 
+Note that this is for a standard 11ty / gulp build. Replace what npm tasks you want with your particular process. In the section under "Deploy static site to S3 bucket", you will need to replace the "{xxxxxxxxxxxxxxxxxxxxx}" with the s3 bucket name that Tech Services gives you (without the {}). 
+
 5. Adding this to Github master branch should trigger a build. Test using the Cloudfront distribution domain name. 
 6. Let Technology Services know that you are ready to edit the IPAM record. They will send you a CNAME record name and a value.
 7. Add this to IPAM. Remember to not include the full domain. 
@@ -53,6 +53,6 @@ Currently, the main site will default to "index.html". However, folders under th
 1. Go to https://aws.illinois.edu and log in. 
 2. Go to Identity and Access Management (IAM)
 3. Add a user (or if you already have a user, go to that user)
-4. Under Security Credentials, create an access key. **You will only have access to the secret once you create the access key, so write it down somewhere.**
+4. Under Security Credentials, create an access key. **You will only have access to the secret once you create the access key, so place it somewhere secure.**
 
 [Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
