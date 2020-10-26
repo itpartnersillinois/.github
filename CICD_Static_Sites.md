@@ -3,12 +3,13 @@
 1. Ask Tech Services for an S3 bucket and Cloudfront site. You will need to give them:
      * The URL you plan on using for the website. 
      * The ARN used to access the S3 bucket: arn:aws:iam::944600653306:user/github-access
-     * Any specific Cloudfront cache issues you need to deal with (the default is 24 hours to completely clear the cache)
+     * Any specific Cloudfront cache issues you need to deal with (the default is 24 hours to completely clear the cache). If you are using cache invalidation below, I recommend you change to at least 8 weeks TTL cache (4,838,400)
 2. Wait for Tech Services to return with the following:
      * S3 bucket name
      * S3 bucket ARN (not needed)
-     * Cloudfront disribution domain name
-3. In your GitHub project --> Settings --> Secrets, add the following secrets (pull this information from the KeyPass file)
+     * Cloudfront distribution ID
+     * Cloudfront distribution domain name
+3. In your GitHub project --> Settings --> Secrets, add the following secrets (pull this information from the KeyPass file, use the Tech Services version)
      * AWS_ACCESS_KEY_ID 
      * AWS_SECRET_ACCESS_KEY
 4. Create a .github/workflows/main.yml file that has the following information:
@@ -35,9 +36,11 @@
              aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
              aws-region: us-east-2
          - name: Deploy static site to S3 bucket
-           run: aws s3 sync ./_site/ s3://{xxxxxxxxxxxxxxxxxxxxx}/content --delete --acl bucket-owner-full-control
+           run: aws s3 sync ./_site/ s3://{s3-bucket-name}/content --delete --acl bucket-owner-full-control
+         - name: Invalidate Cloudfront cache
+           run: aws cloudfront create-invalidation --distribution-id {cloudfront-distribution-id} --paths "/*"
 ```
-Note that this is for a standard 11ty / gulp build. Replace what npm tasks you want with your particular process. In the section under "Deploy static site to S3 bucket", you will need to replace the "{xxxxxxxxxxxxxxxxxxxxx}" with the s3 bucket name that Tech Services gives you (without the {}). 
+Note that this is for a standard 11ty / gulp build. Replace what npm tasks you want with your particular process. In the section under "Deploy static site to S3 bucket", you will need to replace the "{s3-bucket-name}" with the s3 bucket name that Tech Services gives you (without the {}), and the {cloudfront-distribution-id} with the Cloudfront distribution ID that Tech Services gives you (without the {}). 
 
 5. Adding this to Github master branch should trigger a build. Test using the Cloudfront distribution domain name. 
 6. Let Technology Services know that you are ready to edit the IPAM record. They will send you a CNAME record name and a value.
@@ -49,6 +52,8 @@ Note that this is for a standard 11ty / gulp build. Replace what npm tasks you w
 Currently, the main site will default to "index.html". However, folders under the main site will not default to that. You need to explicitly send users to the index.html. So, https://example.illinois.edu will go to https://example.illinois.edu/index.html, but https://example.illinois.edu/features will not go to https://example.illinois.edu/features/index.html
 
 ## How to set up an ARN for S3 buckets
+
+Note that if you are using the Cloudfront invalidation technique, you will need to use the Tech Services ARN. They will send you a credential ID and secret. 
 
 1. Go to https://aws.illinois.edu and log in. 
 2. Go to Identity and Access Management (IAM)
