@@ -14,9 +14,15 @@ This will place an azure-pipelines.yml file in your root directory. You can modi
 ## Note about pipeline integration
 
 If you add this, you may end up having it triggered on any code review. If you see this happening, you may need to change the CI/CD to only run during Continous Integration. To do this:
+
 1. Go to the [Azure Dev Ops IT Partners Pipeline Build](https://dev.azure.com/itpartnersillinois/Pipeline%20Repository%20from%20Gitlab/_build).
 2. Click on the pipeling and choose Edit. 
-3. Click on the three dots and choose Triggers
-4. Choose "Pull request validation" --> Override the YAML pull request trigger from here, Disable pull request validation
+3. Click on the three dots and choose Triggers.
+4. Choose "Pull request validation" --> Override the YAML pull request trigger from here, Disable pull request validation.
+
+## Note about permissions
+
+You need to be an owner of the subscription to be able to do this. 
+
 
 [Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)

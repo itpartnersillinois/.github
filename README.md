@@ -20,7 +20,7 @@ If you are viewing this but don't have access, please [attempt to log in through
 * Continuous Integration (CI/CD) 
      * CI/CD for .NET Core Azure Web Applications
      * [CI/CD for .NET Core Azure Function Applications](https://github.com/itpartnersillinois/tutorial/blob/master/CICD_Function_Apps.md)
-     * CI/CD for static sites
+     * [CI/CD for static sites using npm](https://github.com/itpartnersillinois/tutorial/blob/master/CICD_Static_Sites.md)
 * [Creating a README.md File](https://github.com/itpartnersillinois/tutorial/blob/master/Creating_a_README_File.md)
 * [Adding code reviews](https://github.com/itpartnersillinois/tutorial/blob/master/Adding_Code_Review.md)
 * [Branches and Server Information](https://github.com/itpartnersillinois/tutorial/blob/master/Branches_and_Server_Information.md)
