@@ -2,7 +2,7 @@
 
 1. Ask Tech Services for an S3 bucket and Cloudfront site. You will need to give them:
      * The URL you plan on using for the website. 
-     * The ARN used to access the S3 bucket: arn:aws:iam::944600653306:user/github-access
+     * The ARN used to access the S3 bucket. We were using arn:aws:iam::944600653306:user/github-access, but this was before we needed to use Tech Service's ARN to invalidate cache, so we are using arn:aws:iam::***:user/s3RobustHosting_Education
      * Any specific Cloudfront cache issues you need to deal with (the default is 24 hours to completely clear the cache). If you are using cache invalidation below, I recommend you change to at least 8 weeks TTL cache (4,838,400)
 2. Wait for Tech Services to return with the following:
      * S3 bucket name
