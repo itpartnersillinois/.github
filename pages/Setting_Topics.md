@@ -2,7 +2,7 @@
 
 At the main repository page, choose the gear icon. You will see the following pop-up screen:
 
-![Edit Repository Details Screen](https://github.com/itpartnersillinois/tutorial/blob/master/edit_repository_details_screen.png)
+![Edit Repository Details Screen](https://github.com/itpartnersillinois/tutorial/blob/master/images/edit_repository_details_screen.png)
 
 This allows you to edit the "about" and add topics. You should add topics to your repository to allow other team members to find your projects. Some suggested topics:
 * web
