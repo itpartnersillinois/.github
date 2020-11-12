@@ -29,6 +29,7 @@ If you are viewing this but don't have access, please [attempt to log in through
 
 ## External Resources
 * [U of I GitHub](https://web.uillinois.edu/github)
+* [U of I Github Community Portal](https://uillinois-community.github.io/)
 * [Github "Hello World" Tutorial](https://guides.github.com/activities/hello-world/)
 * [Markdown](https://www.markdowntutorial.com/)
 * [IT Partners Azure DevOps](https://dev.azure.com/itpartnersillinois/)
