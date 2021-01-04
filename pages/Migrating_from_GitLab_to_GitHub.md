@@ -35,6 +35,7 @@ If it isn't, then remove the origins and re-add them
 
       git remote rm origin
       git remote add origin {github url}
-      
+      git reset --hard origin/master
+     
 
 [Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
