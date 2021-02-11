@@ -19,4 +19,4 @@ When you run git clone, the following actions occur:
 
 from https://docs.github.com/en/free-pro-team@latest/github/using-git/getting-changes-from-a-remote-repository
 
-[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)

@@ -6,7 +6,7 @@ Go to the [IT Partners Githib Repository](https://github.com/itpartnersillinois)
 
 You will see the below screen
 
-![Creating a new repository screen](https://github.com/itpartnersillinois/tutorial/blob/master/images/create_repository_screen.png)
+![Creating a new repository screen](https://github.com/itpartnersillinois/tutorial/blob/main/images/create_repository_screen.png)
 
 Naming is tough. If you have a solution name, you'll want the repository to be the same name as the solution. The solution should also be the same name as the main project or deployed item, so you'll have a lot of things that are named the same. This is a feature, not a bug. 
 
@@ -16,4 +16,4 @@ Under most circumstances, you'll be choosing an "Internal" repository. This will
 
 Do not initialize with a README.md or .gitignore. 
 
-[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)

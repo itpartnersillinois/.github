@@ -8,10 +8,10 @@ Emergency/hotfix changes may be used if one of the conditions is true:
 * The application is down or is functionally unusable
 * The program manager and lead developer agree that this is an emergency case
 
-They are labelled as “hotfix/{netid}/{branch name}”, and are merged directly to the master branch.
+They are labelled as “hotfix/{netid}/{branch name}”, and are merged directly to the main branch.
 
 ## Change process: Regular/feature
 
 Regular/feature changes are your typical, non-emergency changes. They are labelled as “{netid}/{branch name}”, and are merged directly to the develop branch
 
-[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)

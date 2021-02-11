@@ -2,11 +2,11 @@
 
 ## Before you start
 
-Make sure you do not have any temporary branches (this means that you usually will only have two branches, master and develop)
+Make sure you do not have any temporary branches (this means that you usually will only have two branches, main/master and develop)
 
 Make sure you don't have any local changes. 
 
-Make sure you are on the master branch
+Make sure you are on the main/master branch
 
     git status
     git checkout master
@@ -38,4 +38,4 @@ If it isn't, then remove the origins and re-add them
       git reset --hard
      
 
-[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)

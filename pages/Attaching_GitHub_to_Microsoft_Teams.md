@@ -29,4 +29,4 @@ Add the webhook to the list and make sure it is sending in JSON format. We are t
 
 Ensure the "Active" checkbox is clicked
 
-[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)

@@ -20,8 +20,8 @@ A README.md file helps other developers work on your application. Please use the
      ## Notes (error logging, external tools, links, etc.):
 
 Note that "How to deploy to production/development" should include what branches are used to edit and what the process is to promote pages. Some sample language:
-* Maintainers commit directly to master.
+* Maintainers commit directly to main.
 * Does not require code review
 * Contains .NET Framework and .NET Core versions
 
-[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/master/README.md)
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)
