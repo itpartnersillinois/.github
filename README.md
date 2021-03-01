@@ -23,7 +23,7 @@ If you are viewing this but don't have access, please [attempt to log in through
      * [CI/CD for .NET Core Azure Function Applications](https://github.com/itpartnersillinois/tutorial/blob/main/pages/CICD_Function_Apps.md)
      * [CI/CD for static sites using npm](https://github.com/itpartnersillinois/tutorial/blob/main/pages/CICD_Static_Sites.md)
 * [Creating a README.md File](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Creating_a_README_File.md)
-* [Adding code reviews](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Adding_Code_Review.doc)
+* [Adding code reviews](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Adding_Code_Review.md)
 * [Branches and Server Information](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Branches_and_Server_Information.md)
 * [Change Process and Branch Naming Conventions](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Change_Process_and_Branch_Naming_Conventions.md)
 * [Renaming Branches](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Renaming_Branches.md)
