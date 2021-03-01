@@ -21,9 +21,7 @@ All IT Partners should have a CODEOWNERS file that lists who should be responsib
 
 You can use the following file as your CODEOWNERS file. 
 
-`
-# Code Owner Review when someone opens a pull request.
-*       @@itp-code-review
-`
+     # Code Owner Review when someone opens a pull request.
+     *       @itp-code-review
 
- 
+[Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)
