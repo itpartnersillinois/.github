@@ -22,6 +22,7 @@ If you are viewing this but don't have access, please [attempt to log in through
      * CI/CD for .NET Core Azure Web Applications
      * [CI/CD for .NET Core Azure Function Applications](https://github.com/itpartnersillinois/tutorial/blob/main/pages/CICD_Function_Apps.md)
      * [CI/CD for static sites using npm](https://github.com/itpartnersillinois/tutorial/blob/main/pages/CICD_Static_Sites.md)
+     * [CI/CD for .NET Core Hosted On-Prem](https://github.com/itpartnersillinois/tutorial/blob/main/pages/CICD_AspNetCore.md)
 * [Creating a README.md File](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Creating_a_README_File.md)
 * [Adding code reviews](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Adding_Code_Review.md)
 * [Branches and Server Information](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Branches_and_Server_Information.md)
