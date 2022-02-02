@@ -28,6 +28,7 @@ If you are viewing this but don't have access, please [attempt to log in through
 * [Branches and Server Information](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Branches_and_Server_Information.md)
 * [Change Process and Branch Naming Conventions](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Change_Process_and_Branch_Naming_Conventions.md)
 * [Renaming Branches](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Renaming_Branches.md)
+* [Creating an .editorconfig file](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Creating_EditorConfig.md)
 
 ## External Resources
 * [U of I GitHub](https://web.uillinois.edu/github)
