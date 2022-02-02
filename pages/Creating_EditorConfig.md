@@ -4,6 +4,6 @@ A .editorconfig file stored at the project level will automatically format your 
 
 To add your .editorconfig file, right-click on the project and choose Add -> EditorConfig file. This will generate the configuration file for you. 
 
-You can replace it with our [standard .editorconfig file](https://github.com/itpartnersillinois/tutorial/blob/main/.editorconfig).
+You can replace it with our [standard .editorconfig file](https://raw.githubusercontent.com/itpartnersillinois/tutorial/main/.editorconfig).
 
 [Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)
