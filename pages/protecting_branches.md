@@ -1,11 +1,5 @@
 # Protecting Branches
 
-## Default Branch
-
-The default branch should be main
-
-To change this, go to Settings --> Branches. Confirm the default branch is main
-
 ## Branch Protection
 
 You should add two rules to your branches.
