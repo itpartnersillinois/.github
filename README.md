@@ -18,6 +18,7 @@ If you are viewing this but don't have access, please [attempt to log in through
 * [Migrating from GitLab to GitHub](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Migrating_from_GitLab_to_GitHub.md)
 * [Attaching GitHub to Microsoft Teams](https://github.com/itpartnersillinois/tutorial/blob/main/pages/Attaching_GitHub_to_Microsoft_Teams.md)
 * [Creating and Protecting Branches](https://github.com/itpartnersillinois/tutorial/blob/main/pages/protecting_branches.md)
+* [Preventing Merging Directly To Main](https://github.com/itpartnersillinois/tutorial/blob/main/pages/preventing_merging_to_main.md)
 * [Continuous Integration (CI/CD)](https://github.com/itpartnersillinois/tutorial/blob/main/pages/CICD.md)
      * CI/CD for Azure Pipelines to .NET Core Azure Web Applications
      * [CI/CD for Azure Pipelines to .NET Core Azure Function Applications](https://github.com/itpartnersillinois/tutorial/blob/main/pages/CICD_Function_Apps.md)
