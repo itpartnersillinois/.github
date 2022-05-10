@@ -1,0 +1,13 @@
+name: restrict_main_pr
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Echo branches
+      run: echo "PR request from source ${{ github.head_ref }} to target ${{ github.base_ref }}"
+    - name: Confirm develop is the source branch
+      if: ${{ github.head_ref != 'develop' }}
+      run: exit 1
