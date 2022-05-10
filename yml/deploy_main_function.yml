@@ -43,4 +43,4 @@ jobs:
       with:
         app-name: ${{ env.AZURE_NAME }}
         package: '${{ env.AZURE_PACKAGE_PATH }}/dotnet-webapp'
-        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFIE }}
+        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}

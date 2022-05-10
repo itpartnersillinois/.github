@@ -2,7 +2,7 @@
 
 1. In your Azure Function App, download a Publish Profile
 2. In your GitHub project --> Settings --> Secrets, add the following secret 
-     * AZURE_PUBLISH_PROFIE
+     * AZURE_PUBLISH_PROFILE
 3. Create a .github/workflows/deploy_main.yml file that has the following information:
      
 ```json
@@ -51,7 +51,7 @@ jobs:
       with:
         app-name: ${{ env.AZURE_NAME }}
         package: '${{ env.AZURE_PACKAGE_PATH }}/dotnet-webapp'
-        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFIE }}
+        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
 ```
 Change the environment variables
 * AZURE_NAME: *The function app name in Azure*
