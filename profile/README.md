@@ -1,3 +1,3 @@
-# Welcome to the IT Partners Github organization. 
+# Welcome to the IT Partners GitHub organization.
 
-See our tutorial in https://github.com/itpartnersillinois/.github/blob/main/README.md
+See our [tutorial repository](https://github.com/itpartnersillinois/.github) to get started!
