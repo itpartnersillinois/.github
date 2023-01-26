@@ -17,17 +17,17 @@ From your command line, make sure you have the latest code.
 
      git pull --all
      
-Mirror your repository to the new Github URL
+Mirror your repository to the new GitHub URL
 
       git push --no-verify --mirror {github url}
       
-Change your remote to the new Github URL
+Change your remote to the new GitHub URL
 
       git remote set-url --push origin {github url}
       
 Archive your old Gitlab account by going to Settings --> General --> Advanced --> Archive Project
 
-Confirm your existing local copy is pointing to only the Github version
+Confirm your existing local copy is pointing to only the GitHub version
 
       git remote -v
       

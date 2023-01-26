@@ -42,7 +42,7 @@
 ```
 Note that this is for a standard 11ty / gulp build. Replace what npm tasks you want with your particular process. In the section under "Deploy static site to S3 bucket", you will need to replace the "{s3-bucket-name}" with the s3 bucket name that Tech Services gives you (without the {}), and the {cloudfront-distribution-id} with the Cloudfront distribution ID that Tech Services gives you (without the {}). 
 
-5. Adding this to Github main branch should trigger a build. Test using the Cloudfront distribution domain name. 
+5. Adding this to GitHub main branch should trigger a build. Test using the Cloudfront distribution domain name. 
 6. Let Technology Services know that you are ready to edit the IPAM record. They will send you a CNAME record name and a value.
 7. Add the CNAME to IPAM. Remember to not include the full domain. Also, add the CNAME of your main site (example.illinois.edu) to the IPAM record, pointing to the Cloudfront distribution domain name.
 8. Let Technology Services know that this is done. They will validate the Cloudfront record and add the SSL.

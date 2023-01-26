@@ -8,11 +8,11 @@ This allows everyone a single place to see what people are working on in terms o
 
 In Microsoft Teams, choose a channel, the three dots, and choose Connectors.
 
-Choose Github Enterprise and click Add. 
+Choose GitHub Enterprise and click Add. 
 
-Enter a name for the Github Enterprise connection, and record the webhook it generates. 
+Enter a name for the GitHub Enterprise connection, and record the webhook it generates. 
 
-Go to your Github Organization and choose Settings --> Webhooks. 
+Go to your GitHub Organization and choose Settings --> Webhooks. 
 
 Add the webhook to the list and make sure it is sending in JSON format. We are triggering the webhook on the following options:
 

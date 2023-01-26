@@ -1,4 +1,4 @@
-# Creating CI/CD for Function Apps using Github Actions
+# Creating CI/CD for Function Apps using GitHub Actions
 
 1. In your Azure Function App, download a Publish Profile
 2. In your GitHub project --> Settings --> Secrets, add the following secret 

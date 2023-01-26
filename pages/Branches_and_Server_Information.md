@@ -1,6 +1,6 @@
 # Branches and Server Information
 
-Github projects should have a main and develop branch. Both should be protected and not allow people to directly deploy to them. If a code merge conflict requires the develop branch to be unprotected, this should be done only by the lead developer and the branch should be re-protected immediately.
+GitHub projects should have a main and develop branch. Both should be protected and not allow people to directly deploy to them. If a code merge conflict requires the develop branch to be unprotected, this should be done only by the lead developer and the branch should be re-protected immediately.
 
 The main branch should always mirror production, and the develop branch should always mirror a shared test environment if a test environment is being used. Continuous Integration/Continuous Deployment (CI/CD) will be in place to ensure this mirroring process, and development should never be done directly on the server. Do not update code directly on the server.
 
