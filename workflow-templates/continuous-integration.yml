@@ -1,0 +1,21 @@
+name: Continuous integration
+
+on:
+  workflow_call:
+   outputs:
+     ci-success:
+       type: bool
+       description: "True if the changes integrated successfully"
+       value: ${{ jobs.build.outputs.result }} && ${{ jobs.test.outputs.result }}
+     build-status:
+       description: "Build status"
+
+jobs:
+  build:
+    uses: itpartnersillinois/.github/workflows/build.yml@{main}
+
+  test:
+    uses: itpartnersillinois/.github/workflows/automated_testing.yml@{main}
+
+
+  

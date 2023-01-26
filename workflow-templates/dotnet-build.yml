@@ -1,0 +1,3 @@
+# dotnet-build.yml
+# This will be referenced in the continuous-integration.yml, if the project is
+# in fact a dotnet project.

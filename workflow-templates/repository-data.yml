@@ -1,0 +1,32 @@
+name: Repository default workflow
+run-name: ${{ github.base_ref }}   ${{ github.event.pull_request.base.repo.name }} 
+on: 
+ pull_request:
+   branches:
+     - main
+     - stage
+     - develop
+
+  # Map the workflow outputs to job outputs
+ outputs:
+   passed:
+     description: "The pull request can be merged" 
+     # I.e. the binary outputs of the broad categories below are all true
+     value: ${{ jobs.continuous-integration.
+     # ${{ reference to job output }} && ${{ reference to second job output }},
+     # etc.
+
+jobs:
+  continuous-integration:
+    uses: itpartnersillinois/.github/workflows/continuous-integration.yml@{main}
+    outputs:
+   #with:
+   # parameter-to-pass: parameter
+   #secrets:
+   # secret-name: ${{ secrets.<value}} 
+   # or secrets: inherit
+
+
+  # Put the rest of the broad topic workflows here
+  # maybe deployment, security-scan, etc.
+ 

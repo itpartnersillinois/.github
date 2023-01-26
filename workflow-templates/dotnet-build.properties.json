@@ -1,0 +1,13 @@
+{
+    "name": ".NET build ITP workflow",
+    "description": ".NET build starter workflow for ITP.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
