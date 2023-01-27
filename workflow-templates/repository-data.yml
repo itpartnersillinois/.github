@@ -1,4 +1,5 @@
 name: Repository default workflow
+# Evaluates to main  repo the pull request originated from?
 run-name: ${{ github.base_ref }}   ${{ github.event.pull_request.base.repo.name }} 
 on: 
  pull_request:

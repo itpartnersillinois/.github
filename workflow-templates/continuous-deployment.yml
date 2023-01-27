@@ -1,0 +1,6 @@
+# This workflow should run after a pull request has been determined to be able
+# to be merged. The determination will be based on both human intervention (e.g.
+# code reviews) as well as the workflow specified in the
+# continuatious-integration.yml workflow.
+#
+name: Continuous deployment

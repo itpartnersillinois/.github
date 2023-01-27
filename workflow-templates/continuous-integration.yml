@@ -1,12 +1,18 @@
 name: Continuous integration
+# run-name can reference the github and inputs contexts
+run-name: 
+description: ""
 
 on:
+  # setting workflow_call within an action allows it to be reusable
   workflow_call:
    outputs:
      ci-success:
        type: bool
        description: "True if the changes integrated successfully"
        value: ${{ jobs.build.outputs.result }} && ${{ jobs.test.outputs.result }}
+       default: false
+       required: true
      build-status:
        description: "Build status"
 
