@@ -16,6 +16,6 @@ You can see [the full list of open issues in IT Partners](https://github.com/sea
 
 ## Skipping Code Reviews
 
-There will be cases when you cannot review code (either everyone else is out or busy), or times when code reviews are impractical. If you need to skip code review, please contact the manager of your department and get permission first (Jeremy for College of Education; Chris, Meagan, or Aaron for Gies College of Business). 
+There will be cases when you cannot review code (either everyone else is out or busy), or times when code reviews are impractical. If you need to skip code review, please post in the [ITP Developers - Code Review and Conversation channel](https://teams.microsoft.com/_?tenantId=44467e6f-462c-4ea2-823f-7800de5434e3#/school/conversations/ITP%20Developers%20-%20Code%20Review%20and%20Conversation?groupId=e7f43315-5065-401c-b665-e24eebc69e8d&threadId=19:70374f7fb97a46e3ae247fd825b20d6a@thread.skype&ctx=channel). 
 
 [Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)
