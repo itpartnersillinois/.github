@@ -18,4 +18,6 @@ You can see [the full list of open issues in IT Partners](https://github.com/sea
 
 There will be cases when you cannot review code (either everyone else is out or busy), or times when code reviews are impractical. If you need to skip code review, please post in the [ITP Developers - Code Review and Conversation channel](https://teams.microsoft.com/_?tenantId=44467e6f-462c-4ea2-823f-7800de5434e3#/school/conversations/ITP%20Developers%20-%20Code%20Review%20and%20Conversation?groupId=e7f43315-5065-401c-b665-e24eebc69e8d&threadId=19:70374f7fb97a46e3ae247fd825b20d6a@thread.skype&ctx=channel). 
 
+All pulls are sent to the ITP Automated Channels and Github team, under the [Github Pull Requests](https://teams.microsoft.com/l/channel/19%3A4faa6dc17ec4444589563fc5466ae5ce%40thread.tacv2/Github%20Pull%20Requests%20(EG)?groupId=45254593-9c0a-4df4-8908-ff3eda8597dd&tenantId=).
+
 [Back to Main](https://github.com/itpartnersillinois/tutorial/blob/main/README.md)
