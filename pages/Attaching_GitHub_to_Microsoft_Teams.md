@@ -6,9 +6,9 @@ This allows everyone a single place to see what people are working on in terms o
 
 ## How this is done
 
-In Microsoft Teams, choose a channel, the three dots, and choose Connectors.
+In Microsoft Teams, choose a channel, the three dots, and choose Workflows.
 
-Choose Github Enterprise and click Add. 
+You will be creating a webhook to write information to MS Teams. 
 
 Enter a name for the Github Enterprise connection, and record the webhook it generates. 
 
